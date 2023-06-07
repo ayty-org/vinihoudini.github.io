@@ -33,17 +33,23 @@
             margin: 5px;
         }
 
-        @media (max-width: 600px) {
-            .meu-elemento {
-              width: 100%;
-            }
-          }
+       /* Estilos padrão para desktop */
 
-          @media (max-width: 400px) {
-            .meu-elemento {
-              width: 50%;
-            }
-          }
+/* Estilos para dispositivos móveis com largura de tela até 480 pixels */
+@media (max-width: 480px) {
+    /* Estilos para dispositivos móveis */
+  }
+  
+  /* Estilos para dispositivos móveis com largura de tela de 481 pixels até 768 pixels */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+  }
+  
+  /* Estilos para dispositivos móveis com largura de tela de 769 pixels até 1024 pixels */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para dispositivos móveis */
+  }
+  
           
           
     </style>
