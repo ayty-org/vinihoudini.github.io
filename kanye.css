@@ -32,4 +32,18 @@
         button {
             margin: 5px;
         }
+
+        @media (max-width: 600px) {
+            .meu-elemento {
+              width: 100%;
+            }
+          }
+
+          @media (max-width: 400px) {
+            .meu-elemento {
+              width: 50%;
+            }
+          }
+          
+          
     </style>
